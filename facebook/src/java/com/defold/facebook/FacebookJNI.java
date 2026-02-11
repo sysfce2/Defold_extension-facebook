@@ -283,11 +283,11 @@ class FacebookJNI {
     }
 
     public void enableEventUsage() {
-        facebook.disableEventUsage();
+        facebook.enableEventUsage();
     }
 
     public void disableEventUsage() {
-        facebook.enableEventUsage();
+        facebook.disableEventUsage();
     }
 
     public void fetchDeferredAppLinkData(final long userData) {
